@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "57F573C3-448B-4AE7-8B6E-69610D799B94"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E755DBAC-B724-4E1A-8832-EFF1A493CAB1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "34th-SOPT-1st-Seminar/2nd/WelcomeViewController_Closure.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "backToLoginButtonDidTap()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E755DBAC-B724-4E1A-8832-EFF1A493CAB1 - cfe19a490ef925a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_4th_SOPT_1st_Seminar.WelcomeViewController_Closure.backToLoginButtonDidTap() -&gt; ()"
+                  moduleName = "34th-SOPT-1st-Seminar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seori/SOPT/SeoEunSu-practice/34th-SOPT-1st-Seminar/34th-SOPT-1st-Seminar/2nd/WelcomeViewController_Closure.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "E755DBAC-B724-4E1A-8832-EFF1A493CAB1 - cfe19a490ef925a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_4th_SOPT_1st_Seminar.WelcomeViewController_Closure.backToLoginButtonDidTap() -&gt; ()"
+                  moduleName = "34th-SOPT-1st-Seminar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seori/SOPT/SeoEunSu-practice/34th-SOPT-1st-Seminar/34th-SOPT-1st-Seminar/2nd/WelcomeViewController_Closure.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

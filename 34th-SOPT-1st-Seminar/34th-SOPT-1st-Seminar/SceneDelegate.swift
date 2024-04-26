@@ -13,15 +13,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
-        // 1.
         guard let windowScene = (scene as? UIWindowScene) else { return }
-    // 2.
         self.window = UIWindow(windowScene: windowScene)
-    // 3.
-        let navigationController = UINavigationController(rootViewController: BadukPanViewController())
+        
+        let navigationController = UINavigationController(rootViewController: ChatViewController())
         navigationController.navigationBar.isHidden = true
         self.window?.rootViewController = navigationController
-    // 4.
         self.window?.makeKeyAndVisible()
     }
 }

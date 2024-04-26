@@ -10,7 +10,7 @@ import UIKit
 
 /// 가이드라인 작성
 /// LoginVC에 위임할 내용의 청사진을 선언한다.
-protocol DataBindProtocol: AnyObject {
+protocol DataBindProtocol {
     /// welcomeVC에서 loginVC로의 데이터(id) 전달
     func dataBind(id: String?)
 }
@@ -22,7 +22,7 @@ protocol DataBindProtocol: AnyObject {
 
 /// Delegate Pattern을 이용한 데이터 전달
 class WelcomeViewController_DelegatePattern: UIViewController {
-    weak var delegate: (DataBindProtocol)?
+    var delegate: (DataBindProtocol)?
     var id: String? // 이전 화면에서 입력한 아이디가 이 변수에 들어가게 됨
     
     private let rabbitImageView: UIImageView = {

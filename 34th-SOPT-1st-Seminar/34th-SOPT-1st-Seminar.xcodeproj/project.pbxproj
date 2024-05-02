@@ -26,6 +26,16 @@
 		A25EEA982BB7D7AE005290C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25EEA972BB7D7AE005290C7 /* Assets.xcassets */; };
 		A25EEA9B2BB7D7AE005290C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25EEA992BB7D7AE005290C7 /* LaunchScreen.storyboard */; };
 		A25EEAA32BB7E4A6005290C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25EEAA22BB7E4A6005290C7 /* LoginViewController.swift */; };
+		A293D3022BD38875007CA9DC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293D3012BD38875007CA9DC /* LoginView.swift */; };
+		A293D3052BD389D7007CA9DC /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = A293D3042BD389D7007CA9DC /* Then */; };
+		A293D3072BD38B63007CA9DC /* LoginViewController_CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293D3062BD38B63007CA9DC /* LoginViewController_CustomView.swift */; };
+		A293D3092BD38E00007CA9DC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293D3082BD38E00007CA9DC /* ChatViewController.swift */; };
+		A293D30D2BD38EC0007CA9DC /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293D30C2BD38EC0007CA9DC /* ChatTableViewCell.swift */; };
+		A293D30F2BD39DBA007CA9DC /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293D30E2BD39DBA007CA9DC /* ChatModel.swift */; };
+		A293D3112BD3A6BD007CA9DC /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293D3102BD3A6BD007CA9DC /* ItemViewController.swift */; };
+		A293D3132BD3A98D007CA9DC /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293D3122BD3A98D007CA9DC /* ItemCollectionViewCell.swift */; };
+		A293D3172BDBCEDD007CA9DC /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293D3162BDBCEDD007CA9DC /* ItemModel.swift */; };
+		A293D3192BDBD517007CA9DC /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293D3182BDBD517007CA9DC /* UIFont+.swift */; };
 		A2F5E64E2BB7E8D800687F98 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5E64D2BB7E8D800687F98 /* WelcomeViewController.swift */; };
 		A2F5E6592BBABA7500687F98 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2F5E6502BBABA7500687F98 /* Pretendard-Light.otf */; };
 		A2F5E65A2BBABA7500687F98 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2F5E6512BBABA7500687F98 /* Pretendard-ExtraLight.otf */; };
@@ -58,6 +68,15 @@
 		A25EEA9A2BB7D7AE005290C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A25EEA9C2BB7D7AE005290C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A25EEAA22BB7E4A6005290C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A293D3012BD38875007CA9DC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A293D3062BD38B63007CA9DC /* LoginViewController_CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_CustomView.swift; sourceTree = "<group>"; };
+		A293D3082BD38E00007CA9DC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A293D30C2BD38EC0007CA9DC /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		A293D30E2BD39DBA007CA9DC /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		A293D3102BD3A6BD007CA9DC /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		A293D3122BD3A98D007CA9DC /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		A293D3162BDBCEDD007CA9DC /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		A293D3182BDBD517007CA9DC /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
 		A2F5E64D2BB7E8D800687F98 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A2F5E6502BBABA7500687F98 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
 		A2F5E6512BBABA7500687F98 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
@@ -76,6 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A257FFE12BC127F2004F58DD /* SnapKit in Frameworks */,
+				A293D3052BD389D7007CA9DC /* Then in Frameworks */,
 				A257FFE32BC127F2004F58DD /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,12 +154,29 @@
 				A25EEA922BB7D7AD005290C7 /* ViewController.swift */,
 				A257FFD32BC11461004F58DD /* 1st */,
 				A257FFD42BC11466004F58DD /* 2nd */,
+				A293D3002BD38867007CA9DC /* 3rd */,
 				A25EEA942BB7D7AD005290C7 /* Main.storyboard */,
 				A25EEA972BB7D7AE005290C7 /* Assets.xcassets */,
 				A25EEA992BB7D7AE005290C7 /* LaunchScreen.storyboard */,
 				A25EEA9C2BB7D7AE005290C7 /* Info.plist */,
 			);
 			path = "34th-SOPT-1st-Seminar";
+			sourceTree = "<group>";
+		};
+		A293D3002BD38867007CA9DC /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				A293D3012BD38875007CA9DC /* LoginView.swift */,
+				A293D3062BD38B63007CA9DC /* LoginViewController_CustomView.swift */,
+				A293D3082BD38E00007CA9DC /* ChatViewController.swift */,
+				A293D30C2BD38EC0007CA9DC /* ChatTableViewCell.swift */,
+				A293D30E2BD39DBA007CA9DC /* ChatModel.swift */,
+				A293D3102BD3A6BD007CA9DC /* ItemViewController.swift */,
+				A293D3122BD3A98D007CA9DC /* ItemCollectionViewCell.swift */,
+				A293D3162BDBCEDD007CA9DC /* ItemModel.swift */,
+				A293D3182BDBD517007CA9DC /* UIFont+.swift */,
+			);
+			path = 3rd;
 			sourceTree = "<group>";
 		};
 		A2F5E64F2BBAB9DC00687F98 /* Pretendard */ = {
@@ -177,6 +214,7 @@
 			packageProductDependencies = (
 				A257FFE02BC127F2004F58DD /* SnapKit */,
 				A257FFE22BC127F2004F58DD /* SnapKit-Dynamic */,
+				A293D3042BD389D7007CA9DC /* Then */,
 			);
 			productName = "34th-SOPT-1st-Seminar";
 			productReference = A25EEA8B2BB7D7AD005290C7 /* 34th-SOPT-1st-Seminar.app */;
@@ -208,6 +246,7 @@
 			mainGroup = A25EEA822BB7D7AD005290C7;
 			packageReferences = (
 				A257FFDF2BC127F2004F58DD /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A293D3032BD389D7007CA9DC /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = A25EEA8C2BB7D7AD005290C7 /* Products */;
 			projectDirPath = "";
@@ -246,9 +285,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A257FFDA2BC11B55004F58DD /* LoginViewController_Closure.swift in Sources */,
+				A293D3132BD3A98D007CA9DC /* ItemCollectionViewCell.swift in Sources */,
 				A21296462BC5B8F300D63674 /* LoginViewController_AutoLayout.swift in Sources */,
 				A25EEAA32BB7E4A6005290C7 /* LoginViewController.swift in Sources */,
+				A293D3072BD38B63007CA9DC /* LoginViewController_CustomView.swift in Sources */,
 				A257FFDE2BC1247F004F58DD /* BadukPanViewController.swift in Sources */,
+				A293D30D2BD38EC0007CA9DC /* ChatTableViewCell.swift in Sources */,
 				A257FFE52BC12BB5004F58DD /* LoginViewController_SnapKit.swift in Sources */,
 				A2F5E64E2BB7E8D800687F98 /* WelcomeViewController.swift in Sources */,
 				A257FFD82BC1149D004F58DD /* WelcomeViewController_DelegatePattern.swift in Sources */,
@@ -257,8 +299,14 @@
 				A21296482BC5B90100D63674 /* WelcomeViewController_AutoLayout.swift in Sources */,
 				A25EEA932BB7D7AD005290C7 /* ViewController.swift in Sources */,
 				A25EEA8F2BB7D7AD005290C7 /* AppDelegate.swift in Sources */,
+				A293D3112BD3A6BD007CA9DC /* ItemViewController.swift in Sources */,
+				A293D3192BDBD517007CA9DC /* UIFont+.swift in Sources */,
 				A257FFDC2BC11B60004F58DD /* WelcomeViewController_Closure.swift in Sources */,
+				A293D30F2BD39DBA007CA9DC /* ChatModel.swift in Sources */,
 				A257FFE72BC12BBF004F58DD /* WelcomeViewController_SnapKit.swift in Sources */,
+				A293D3022BD38875007CA9DC /* LoginView.swift in Sources */,
+				A293D3172BDBCEDD007CA9DC /* ItemModel.swift in Sources */,
+				A293D3092BD38E00007CA9DC /* ChatViewController.swift in Sources */,
 				A25EEA912BB7D7AD005290C7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +540,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		A293D3032BD389D7007CA9DC /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -504,6 +560,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A257FFDF2BC127F2004F58DD /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
+		};
+		A293D3042BD389D7007CA9DC /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A293D3032BD389D7007CA9DC /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

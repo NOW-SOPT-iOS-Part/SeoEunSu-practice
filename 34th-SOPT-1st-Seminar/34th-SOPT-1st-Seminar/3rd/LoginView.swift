@@ -31,7 +31,7 @@ final class LoginView: UIView {
         $0.font = UIFont.init(name: "Pretendard-Bold", size: 18)
     }
     
-    private let idTextField = UITextField().then {
+    let idTextField = UITextField().then {
         $0.placeholder = "아이디"
         $0.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
         $0.font = UIFont.init(name: "Pretendard-Medium", size: 14)
@@ -39,7 +39,7 @@ final class LoginView: UIView {
         $0.keyboardType = .emailAddress // email을 적을 때 필요한 문자가 있는 키보드로 띄워줌
     }
     
-    private let passwordTextField = UITextField().then {
+    let passwordTextField = UITextField().then {
         $0.placeholder = "비밀번호"
         $0.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
         $0.font = UIFont.init(name: "Pretendard-Medium", size: 14)
@@ -47,7 +47,7 @@ final class LoginView: UIView {
         $0.isSecureTextEntry = true // 비밀번호이기 때문에 가려주었다
     }
     
-    private lazy var loginButton = UIButton().then {
+    lazy var loginButton = UIButton().then {
         $0.backgroundColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
         $0.setTitle("로그인하기", for: .normal)
         $0.setTitleColor(.white, for: .normal)

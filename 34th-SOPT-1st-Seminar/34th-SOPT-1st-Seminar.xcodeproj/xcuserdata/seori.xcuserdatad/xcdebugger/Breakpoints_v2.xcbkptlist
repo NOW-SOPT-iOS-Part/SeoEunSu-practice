@@ -55,165 +55,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8BEEC6D6-F133-4219-B66A-E96998628205"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "34th-SOPT-1st-Seminar/4th/SignUpViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "170"
-            endingLineNumber = "170"
-            landmarkName = "signUpButtonDidTap()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "8BEEC6D6-F133-4219-B66A-E96998628205 - 578d01d10024d15b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (_4th_SOPT_1st_Seminar.NetworkResult&lt;Any&gt;) -&gt; () in _4th_SOPT_1st_Seminar.SignUpViewController.signUpButtonDidTap() -&gt; ()"
-                  moduleName = "34th-SOPT-1st-Seminar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/seori/SOPT/SeoEunSu-practice/34th-SOPT-1st-Seminar/34th-SOPT-1st-Seminar/4th/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "169"
-                  endingLineNumber = "169"
-                  offsetFromSymbolStart = "740">
-               </Location>
-               <Location
-                  uuid = "8BEEC6D6-F133-4219-B66A-E96998628205 - 578d01d10024defe"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (_4th_SOPT_1st_Seminar.NetworkResult&lt;Any&gt;) -&gt; () in _4th_SOPT_1st_Seminar.SignUpViewController.signUpButtonDidTap() -&gt; ()"
-                  moduleName = "34th-SOPT-1st-Seminar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/seori/SOPT/SeoEunSu-practice/34th-SOPT-1st-Seminar/34th-SOPT-1st-Seminar/4th/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "172"
-                  endingLineNumber = "172"
-                  offsetFromSymbolStart = "892">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9C6FCC28-E379-4E43-8C82-1D942FC81858"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "34th-SOPT-1st-Seminar/4th/SignUpViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
-            landmarkName = "signUpButtonDidTap()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "9C6FCC28-E379-4E43-8C82-1D942FC81858 - 665c6cf1dc11eda"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_4th_SOPT_1st_Seminar.SignUpViewController.signUpButtonDidTap() -&gt; ()"
-                  moduleName = "34th-SOPT-1st-Seminar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/seori/SOPT/SeoEunSu-practice/34th-SOPT-1st-Seminar/34th-SOPT-1st-Seminar/4th/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "146"
-                  endingLineNumber = "146"
-                  offsetFromSymbolStart = "68">
-               </Location>
-               <Location
-                  uuid = "9C6FCC28-E379-4E43-8C82-1D942FC81858 - 665c6cf1dc11eda"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_4th_SOPT_1st_Seminar.SignUpViewController.signUpButtonDidTap() -&gt; ()"
-                  moduleName = "34th-SOPT-1st-Seminar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/seori/SOPT/SeoEunSu-practice/34th-SOPT-1st-Seminar/34th-SOPT-1st-Seminar/4th/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "146"
-                  endingLineNumber = "146"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "9C6FCC28-E379-4E43-8C82-1D942FC81858 - 665c6cf1dc11eda"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_4th_SOPT_1st_Seminar.SignUpViewController.signUpButtonDidTap() -&gt; ()"
-                  moduleName = "34th-SOPT-1st-Seminar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/seori/SOPT/SeoEunSu-practice/34th-SOPT-1st-Seminar/34th-SOPT-1st-Seminar/4th/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "146"
-                  endingLineNumber = "146"
-                  offsetFromSymbolStart = "96">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CF79807F-38C3-4236-8ADD-77D75FD987EB"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "34th-SOPT-1st-Seminar/4th/SignUpViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "166"
-            endingLineNumber = "166"
-            landmarkName = "signUpButtonDidTap()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CF79807F-38C3-4236-8ADD-77D75FD987EB - 578d01d10024d011"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (_4th_SOPT_1st_Seminar.NetworkResult&lt;Any&gt;) -&gt; () in _4th_SOPT_1st_Seminar.SignUpViewController.signUpButtonDidTap() -&gt; ()"
-                  moduleName = "34th-SOPT-1st-Seminar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/seori/SOPT/SeoEunSu-practice/34th-SOPT-1st-Seminar/34th-SOPT-1st-Seminar/4th/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "163"
-                  endingLineNumber = "163"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "CF79807F-38C3-4236-8ADD-77D75FD987EB - 578d01d10024d1b4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (_4th_SOPT_1st_Seminar.NetworkResult&lt;Any&gt;) -&gt; () in _4th_SOPT_1st_Seminar.SignUpViewController.signUpButtonDidTap() -&gt; ()"
-                  moduleName = "34th-SOPT-1st-Seminar"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/seori/SOPT/SeoEunSu-practice/34th-SOPT-1st-Seminar/34th-SOPT-1st-Seminar/4th/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "166"
-                  endingLineNumber = "166"
-                  offsetFromSymbolStart = "100">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "0D67230F-6064-43DA-9FFD-0A708DE3EA0A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -357,7 +198,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "38D7628B-348B-4A3C-AB04-DECA6FB91687"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "34th-SOPT-1st-Seminar/4th/UserService.swift"
@@ -389,7 +230,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "08D1F6FD-928A-412C-BC2F-FF54FAE0B601"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "34th-SOPT-1st-Seminar/4th/UserService.swift"
@@ -405,7 +246,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "58E7A1F3-F7AE-47D6-9132-A4B8DC09B8E3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "34th-SOPT-1st-Seminar/4th/UserService.swift"

@@ -49,7 +49,13 @@ final class CheckUserInfoViewController: UIViewController {
     }
     
     private func setLayout() {
-        [logoImageView, idLabel, nickNameLabel, phoneNumberLabel, nextButton].forEach {
+        [
+            logoImageView,
+            idLabel,
+            nickNameLabel,
+            phoneNumberLabel,
+            nextButton
+        ].forEach {
             self.view.addSubview($0)
         }
         

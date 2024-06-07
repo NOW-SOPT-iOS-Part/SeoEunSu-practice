@@ -104,13 +104,39 @@ class LoginViewController: UIViewController {
         passwordTextField.text = ""
     }
     
+    private func login() {
+        guard let idData = idTextField.text else { return }
+        guard let pwData = passwordTextField.text else { return }
+        
+        let req = LoginRequestModel(authenticationId: idData, password: pwData)
+        
+        UserService.shared.login(request: req) { res in
+            switch res {
+            case .success(let data):
+                guard let data = data as? PlainResponseModel else { return }
+                print("응답값! \(data)")
+            case .requestErr:
+                print("요청 오류 입니다")
+            case .decodedErr:
+                print("디코딩 오류 입니다")
+            case .pathErr:
+                print("경로 오류 입니다")
+            case .serverErr:
+                print("서버 오류입니다")
+            case .networkFail:
+                print("네트워크 오류입니다")
+            }
+        }
+    }
+    
     /// 로그인 버튼 클릭 시 실행되는 액션 함수
     /// 다음 화면으로 이동됨
     /// 아이디랑 비번 텍스트 필드에 적은 내용 지워줌
     @objc
     private func loginButtonDidTap() {
-        presentWelcomeVC()
+        login()
+//        presentWelcomeVC()
 //        pushToWelcomeVC()
-        removeTextInTextField()
+//        removeTextInTextField()
     }
 }
